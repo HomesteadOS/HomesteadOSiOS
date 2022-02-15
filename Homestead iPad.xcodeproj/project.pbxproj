@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		206D5E6027BB341B00DE065F /* Homestead_iPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D5E5F27BB341B00DE065F /* Homestead_iPadApp.swift */; };
+		206D5E6227BB341B00DE065F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D5E6127BB341B00DE065F /* ContentView.swift */; };
+		206D5E6427BB341C00DE065F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206D5E6327BB341C00DE065F /* Assets.xcassets */; };
+		206D5E6727BB341C00DE065F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206D5E6627BB341C00DE065F /* Preview Assets.xcassets */; };
+		206D5E6927BB341C00DE065F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D5E6827BB341C00DE065F /* Persistence.swift */; };
+		206D5E6C27BB341C00DE065F /* Homestead_iPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 206D5E6A27BB341C00DE065F /* Homestead_iPad.xcdatamodeld */; };
+		206D5E7627BB341D00DE065F /* Homestead_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D5E7527BB341D00DE065F /* Homestead_iPadTests.swift */; };
+		206D5E8027BB341D00DE065F /* Homestead_iPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D5E7F27BB341D00DE065F /* Homestead_iPadUITests.swift */; };
+		206D5E8227BB341D00DE065F /* Homestead_iPadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D5E8127BB341D00DE065F /* Homestead_iPadUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		206D5E7227BB341D00DE065F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 206D5E5427BB341B00DE065F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206D5E5B27BB341B00DE065F;
+			remoteInfo = "Homestead iPad";
+		};
+		206D5E7C27BB341D00DE065F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 206D5E5427BB341B00DE065F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206D5E5B27BB341B00DE065F;
+			remoteInfo = "Homestead iPad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		206D5E5C27BB341B00DE065F /* Homestead iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homestead iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		206D5E5F27BB341B00DE065F /* Homestead_iPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homestead_iPadApp.swift; sourceTree = "<group>"; };
+		206D5E6127BB341B00DE065F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		206D5E6327BB341C00DE065F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		206D5E6627BB341C00DE065F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		206D5E6827BB341C00DE065F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		206D5E6B27BB341C00DE065F /* Homestead_iPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Homestead_iPad.xcdatamodel; sourceTree = "<group>"; };
+		206D5E7127BB341D00DE065F /* Homestead iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homestead iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		206D5E7527BB341D00DE065F /* Homestead_iPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homestead_iPadTests.swift; sourceTree = "<group>"; };
+		206D5E7B27BB341D00DE065F /* Homestead iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homestead iPadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		206D5E7F27BB341D00DE065F /* Homestead_iPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homestead_iPadUITests.swift; sourceTree = "<group>"; };
+		206D5E8127BB341D00DE065F /* Homestead_iPadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homestead_iPadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		206D5E5927BB341B00DE065F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206D5E6E27BB341D00DE065F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206D5E7827BB341D00DE065F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		206D5E5327BB341B00DE065F = {
+			isa = PBXGroup;
+			children = (
+				206D5E5E27BB341B00DE065F /* Homestead iPad */,
+				206D5E7427BB341D00DE065F /* Homestead iPadTests */,
+				206D5E7E27BB341D00DE065F /* Homestead iPadUITests */,
+				206D5E5D27BB341B00DE065F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		206D5E5D27BB341B00DE065F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				206D5E5C27BB341B00DE065F /* Homestead iPad.app */,
+				206D5E7127BB341D00DE065F /* Homestead iPadTests.xctest */,
+				206D5E7B27BB341D00DE065F /* Homestead iPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		206D5E5E27BB341B00DE065F /* Homestead iPad */ = {
+			isa = PBXGroup;
+			children = (
+				206D5E5F27BB341B00DE065F /* Homestead_iPadApp.swift */,
+				206D5E6127BB341B00DE065F /* ContentView.swift */,
+				206D5E6327BB341C00DE065F /* Assets.xcassets */,
+				206D5E6827BB341C00DE065F /* Persistence.swift */,
+				206D5E6A27BB341C00DE065F /* Homestead_iPad.xcdatamodeld */,
+				206D5E6527BB341C00DE065F /* Preview Content */,
+			);
+			path = "Homestead iPad";
+			sourceTree = "<group>";
+		};
+		206D5E6527BB341C00DE065F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				206D5E6627BB341C00DE065F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		206D5E7427BB341D00DE065F /* Homestead iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				206D5E7527BB341D00DE065F /* Homestead_iPadTests.swift */,
+			);
+			path = "Homestead iPadTests";
+			sourceTree = "<group>";
+		};
+		206D5E7E27BB341D00DE065F /* Homestead iPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				206D5E7F27BB341D00DE065F /* Homestead_iPadUITests.swift */,
+				206D5E8127BB341D00DE065F /* Homestead_iPadUITestsLaunchTests.swift */,
+			);
+			path = "Homestead iPadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		206D5E5B27BB341B00DE065F /* Homestead iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206D5E8527BB341D00DE065F /* Build configuration list for PBXNativeTarget "Homestead iPad" */;
+			buildPhases = (
+				206D5E5827BB341B00DE065F /* Sources */,
+				206D5E5927BB341B00DE065F /* Frameworks */,
+				206D5E5A27BB341B00DE065F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Homestead iPad";
+			productName = "Homestead iPad";
+			productReference = 206D5E5C27BB341B00DE065F /* Homestead iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		206D5E7027BB341D00DE065F /* Homestead iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206D5E8827BB341D00DE065F /* Build configuration list for PBXNativeTarget "Homestead iPadTests" */;
+			buildPhases = (
+				206D5E6D27BB341D00DE065F /* Sources */,
+				206D5E6E27BB341D00DE065F /* Frameworks */,
+				206D5E6F27BB341D00DE065F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				206D5E7327BB341D00DE065F /* PBXTargetDependency */,
+			);
+			name = "Homestead iPadTests";
+			productName = "Homestead iPadTests";
+			productReference = 206D5E7127BB341D00DE065F /* Homestead iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		206D5E7A27BB341D00DE065F /* Homestead iPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206D5E8B27BB341D00DE065F /* Build configuration list for PBXNativeTarget "Homestead iPadUITests" */;
+			buildPhases = (
+				206D5E7727BB341D00DE065F /* Sources */,
+				206D5E7827BB341D00DE065F /* Frameworks */,
+				206D5E7927BB341D00DE065F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				206D5E7D27BB341D00DE065F /* PBXTargetDependency */,
+			);
+			name = "Homestead iPadUITests";
+			productName = "Homestead iPadUITests";
+			productReference = 206D5E7B27BB341D00DE065F /* Homestead iPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		206D5E5427BB341B00DE065F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					206D5E5B27BB341B00DE065F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					206D5E7027BB341D00DE065F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 206D5E5B27BB341B00DE065F;
+					};
+					206D5E7A27BB341D00DE065F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 206D5E5B27BB341B00DE065F;
+					};
+				};
+			};
+			buildConfigurationList = 206D5E5727BB341B00DE065F /* Build configuration list for PBXProject "Homestead iPad" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 206D5E5327BB341B00DE065F;
+			productRefGroup = 206D5E5D27BB341B00DE065F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				206D5E5B27BB341B00DE065F /* Homestead iPad */,
+				206D5E7027BB341D00DE065F /* Homestead iPadTests */,
+				206D5E7A27BB341D00DE065F /* Homestead iPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		206D5E5A27BB341B00DE065F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206D5E6727BB341C00DE065F /* Preview Assets.xcassets in Resources */,
+				206D5E6427BB341C00DE065F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206D5E6F27BB341D00DE065F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206D5E7927BB341D00DE065F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		206D5E5827BB341B00DE065F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206D5E6927BB341C00DE065F /* Persistence.swift in Sources */,
+				206D5E6227BB341B00DE065F /* ContentView.swift in Sources */,
+				206D5E6C27BB341C00DE065F /* Homestead_iPad.xcdatamodeld in Sources */,
+				206D5E6027BB341B00DE065F /* Homestead_iPadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206D5E6D27BB341D00DE065F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206D5E7627BB341D00DE065F /* Homestead_iPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206D5E7727BB341D00DE065F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206D5E8027BB341D00DE065F /* Homestead_iPadUITests.swift in Sources */,
+				206D5E8227BB341D00DE065F /* Homestead_iPadUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		206D5E7327BB341D00DE065F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206D5E5B27BB341B00DE065F /* Homestead iPad */;
+			targetProxy = 206D5E7227BB341D00DE065F /* PBXContainerItemProxy */;
+		};
+		206D5E7D27BB341D00DE065F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206D5E5B27BB341B00DE065F /* Homestead iPad */;
+			targetProxy = 206D5E7C27BB341D00DE065F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		206D5E8327BB341D00DE065F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		206D5E8427BB341D00DE065F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		206D5E8627BB341D00DE065F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Homestead iPad/Preview Content\"";
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.homesteados.Homestead-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		206D5E8727BB341D00DE065F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Homestead iPad/Preview Content\"";
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.homesteados.Homestead-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		206D5E8927BB341D00DE065F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.homesteados.Homestead-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homestead iPad.app/Homestead iPad";
+			};
+			name = Debug;
+		};
+		206D5E8A27BB341D00DE065F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.homesteados.Homestead-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homestead iPad.app/Homestead iPad";
+			};
+			name = Release;
+		};
+		206D5E8C27BB341D00DE065F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.homesteados.Homestead-iPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Homestead iPad";
+			};
+			name = Debug;
+		};
+		206D5E8D27BB341D00DE065F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.homesteados.Homestead-iPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Homestead iPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		206D5E5727BB341B00DE065F /* Build configuration list for PBXProject "Homestead iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206D5E8327BB341D00DE065F /* Debug */,
+				206D5E8427BB341D00DE065F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		206D5E8527BB341D00DE065F /* Build configuration list for PBXNativeTarget "Homestead iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206D5E8627BB341D00DE065F /* Debug */,
+				206D5E8727BB341D00DE065F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		206D5E8827BB341D00DE065F /* Build configuration list for PBXNativeTarget "Homestead iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206D5E8927BB341D00DE065F /* Debug */,
+				206D5E8A27BB341D00DE065F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		206D5E8B27BB341D00DE065F /* Build configuration list for PBXNativeTarget "Homestead iPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206D5E8C27BB341D00DE065F /* Debug */,
+				206D5E8D27BB341D00DE065F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		206D5E6A27BB341C00DE065F /* Homestead_iPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				206D5E6B27BB341C00DE065F /* Homestead_iPad.xcdatamodel */,
+			);
+			currentVersion = 206D5E6B27BB341C00DE065F /* Homestead_iPad.xcdatamodel */;
+			path = Homestead_iPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 206D5E5427BB341B00DE065F /* Project object */;
+}
